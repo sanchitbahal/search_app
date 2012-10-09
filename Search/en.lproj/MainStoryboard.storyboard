@@ -82,22 +82,10 @@
         <scene sceneID="BlG-LM-Lbq">
             <objects>
                 <viewController id="52O-5P-nqy" customClass="SearchResultsViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mls-WB-Y3g" customClass="SearchResultsView">
+                    <webView key="view" contentMode="scaleToFill" id="V9O-UE-zoN">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9O-UE-zoN">
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="V9O-UE-zoN" firstAttribute="leading" secondItem="mls-WB-Y3g" secondAttribute="leading" type="default" id="JUZ-XP-iCv"/>
-                            <constraint firstItem="V9O-UE-zoN" firstAttribute="top" secondItem="mls-WB-Y3g" secondAttribute="top" type="default" id="gp7-hJ-QlJ"/>
-                            <constraint firstItem="V9O-UE-zoN" firstAttribute="trailing" secondItem="mls-WB-Y3g" secondAttribute="trailing" type="default" id="t67-aA-sAQ"/>
-                            <constraint firstItem="V9O-UE-zoN" firstAttribute="bottom" secondItem="mls-WB-Y3g" secondAttribute="bottom" type="default" id="uNb-AP-8EE"/>
-                        </constraints>
-                    </view>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </webView>
                     <navigationItem key="navigationItem" id="IXx-bg-8OW"/>
                     <connections>
                         <outlet property="searchResults" destination="V9O-UE-zoN" id="txQ-vi-hWb"/>
@@ -118,9 +106,6 @@
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SearchResultsView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SearchResultsView.h"/>
         </class>
         <class className="SearchResultsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SearchResultsViewController.h"/>

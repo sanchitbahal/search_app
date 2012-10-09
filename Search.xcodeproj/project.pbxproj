@@ -23,7 +23,6 @@
 		83BD346716246A7400DE42B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BD344216246A7400DE42B1 /* Foundation.framework */; };
 		83BD346F16246A7400DE42B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83BD346D16246A7400DE42B1 /* InfoPlist.strings */; };
 		83BD347216246A7400DE42B1 /* SearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BD347116246A7400DE42B1 /* SearchTests.m */; };
-		83BD347D1624724C00DE42B1 /* UrlConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BD347C1624724C00DE42B1 /* UrlConnectionDelegate.m */; };
 		83BD348316248A5900DE42B1 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BD348216248A5900DE42B1 /* SearchResultsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +59,6 @@
 		83BD346E16246A7400DE42B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83BD347016246A7400DE42B1 /* SearchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTests.h; sourceTree = "<group>"; };
 		83BD347116246A7400DE42B1 /* SearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTests.m; sourceTree = "<group>"; };
-		83BD347B1624724C00DE42B1 /* UrlConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlConnectionDelegate.h; sourceTree = "<group>"; };
-		83BD347C1624724C00DE42B1 /* UrlConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlConnectionDelegate.m; sourceTree = "<group>"; };
 		83BD348116248A5900DE42B1 /* SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsViewController.h; sourceTree = "<group>"; };
 		83BD348216248A5900DE42B1 /* SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,8 +127,6 @@
 				83BD348216248A5900DE42B1 /* SearchResultsViewController.m */,
 				83BD345B16246A7400DE42B1 /* HelloWorldViewController.h */,
 				83BD345C16246A7400DE42B1 /* HelloWorldViewController.m */,
-				83BD347B1624724C00DE42B1 /* UrlConnectionDelegate.h */,
-				83BD347C1624724C00DE42B1 /* UrlConnectionDelegate.m */,
 				83BD344716246A7400DE42B1 /* Supporting Files */,
 			);
 			path = Search;
@@ -284,7 +279,6 @@
 				83BD344D16246A7400DE42B1 /* main.m in Sources */,
 				83BD345116246A7400DE42B1 /* HelloWorldAppDelegate.m in Sources */,
 				83BD345D16246A7400DE42B1 /* HelloWorldViewController.m in Sources */,
-				83BD347D1624724C00DE42B1 /* UrlConnectionDelegate.m in Sources */,
 				83BD348316248A5900DE42B1 /* SearchResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +454,7 @@
 				83BD347716246A7400DE42B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83BD347816246A7400DE42B1 /* Build configuration list for PBXNativeTarget "SearchTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +463,7 @@
 				83BD347A16246A7400DE42B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
